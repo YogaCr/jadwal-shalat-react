@@ -1,4 +1,18 @@
+**Used API /Assets:** 
+ - [Shalat Schedule](http://api.aladhan.com/v1/calendar)
+ - [LocationIQ](https://locationiq.com/)
+ - [Mountain Image](https://dlpng.com/png/4462404)
+ 
+Please register at [LocationIQ](https://locationiq.com/) first to get the API key.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Screenshots
+![Zuhur](https://imgur.com/FhnOGG6.png)
+
+![Isya](https://i.imgur.com/7cBxiso.png)
+
+![Imgur](https://i.imgur.com/61OOyn2.png)
 
 ## Available Scripts
 
