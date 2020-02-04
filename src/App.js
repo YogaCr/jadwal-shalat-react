@@ -43,7 +43,7 @@ class App extends Component{
           sun:true
         })
       }
-      else if(d.getHours()>12&&d.getHours()<18){
+      else if(d.getHours()>=12&&d.getHours()<18){
           this.setState({
           height:((18-d.getHours())*10),
           sun:true

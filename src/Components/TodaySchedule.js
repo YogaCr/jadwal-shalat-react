@@ -12,8 +12,10 @@ class TodaySchedule extends Component{
     componentDidMount(){
       setInterval(()=>{
         let d=new Date()
+        let hour=d.getHours()<10?"0"+d.getHours():d.getHours()
+        let minute = d.getMinutes()<10?"0"+d.getMinutes():d.getMinutes()
         this.setState({
-          waktu:d.getHours()+":"+d.getMinutes()
+          waktu:hour+":"+minute
         })
       },1000)
     }
